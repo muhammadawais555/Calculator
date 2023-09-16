@@ -10,6 +10,7 @@ const Calculator = () => {
     setResult(result?.concat(event.target.value));
   };
   const equalbuttonhandler = () => {
+    // eslint-disable-next-line no-eval
     setResult(eval(result)?.toString());
   };
 
